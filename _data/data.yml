@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sebastian Marzari
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sebamarzari98@gmail.com
+    timezone: America/Argentina/Cordoba Timezone
+    linkedin: sebastián-marzari-2a130b174
+    github: SebaMarzari
+    stack-overflow: 306674/sebastian-marzari # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Spanish
+          level: Native
+
+        - idiom: English
+          level: Intermediate
+
+career-profile:
+    title: About Me
+    summary: |
+      Fullstack developer
+      passionate about front end
+      and eager to learn and
+      improve myself day by day.
+education:
+    title: Education
+    info:
+      - degree: Software Development Technician
+        university: iTec Rio Cuarto
+        time: 2019 - Present
+      - degree: REST APIs with Flask and Python in 2022
+        university: Udemy
+        time: Sep 2022 - Present
+      - degree: React developer
+        university: Udemy
+        time: Jun 2020 - Jun 2021
+      - degree: Electromechanical Technician
+        university: Santa Maria Teresa Goretti
+        time: 2015 - 2018
+      - degree: Secondary
+        university: Galileo Galilei
+        time: 2011 - 2015
+experiences:
+    title: Experiences
+    info:
+      - role: Full Stack Developer
+        time: 2022 - Present
+        company: Emprinet 4.0
+        details: |
+          - Backend developer with python and flask
+      - role: Full Stack Developer
+        time: 2020 - 2022
+        company: Futit Services S.R.L
+        details: |
+          - Openbravo technical tutorials (backend + pos)
+          - Support and development for the ACICO client that Etendo
+          currently has.
+          - Development of React application to manage product stock and
+          inventories in warehouses.
+          - Etendo integrations with other software (e.g: Navision)
+projects:
+    title: Projects
+    assignments:
+      - title: Kanban
+        link: "https://github.com/SebaMarzari/kanban"
+        tagline: "An application to create, read, update and delete tasks."
+      - title: Application of climate
+        link: "https://github.com/SebaMarzari/climate-aplication"
+        tagline: "An application to know the state of the weather and the 5 following days of a specific star."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Flask
+        level: 75%
+
+      - name: Javascript
+        level: 95%
+
+      - name: React
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Java
+        level: 80%
+      
+      - name: Postgresql
+        level: 75%
+      
+      - name: git
+        level: 60%
